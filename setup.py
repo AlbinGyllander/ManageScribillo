@@ -93,7 +93,7 @@ with open("requirements.txt", "r") as req_file:
 print(f"\nFinished installing {total_packages} packages. {successful_installs} successful, {failed_installs} failed.", flush=True)
 
 
-exit()
+
 # Clone the GitHub repository
 clone_repo(GITHUB_BACKEND_REPO_URL)
 clone_repo(GITHUB_FRONTEND_REPO_URL)
